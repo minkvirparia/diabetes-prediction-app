@@ -80,4 +80,4 @@ streamlit run app.py
 ```  
 ## Demo
 
-[Find the Demo here!](https://huggingface.co/spaces/mink-virparia/background-removal-app)
+[Find the Demo here!](https://diabetes-prediction-webapp.onrender.com)
