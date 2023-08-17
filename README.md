@@ -1,7 +1,7 @@
 
 # Diabetes Prediction App 🩺📈
 
-![App Preview](readme_preview_image.png)
+![App Preview](readme_preview_image.jpg)
 
 
 
