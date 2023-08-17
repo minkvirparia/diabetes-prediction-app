@@ -32,6 +32,7 @@ The Diabetes Prediction App is powered by a carefully curated dataset containing
 - BMI (Body Mass Index)
 - Diabetes Pedigree Function
 - Age
+- Outcome
 
 
 ### Models and Accuracy Summary
