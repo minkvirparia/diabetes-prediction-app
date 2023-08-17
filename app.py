@@ -43,3 +43,33 @@ if st.button('Predict', use_container_width= True):
     # Display the prediction result with dynamic messages
     result_message = "**The person is predicted to have diabetes. 😔**" if prediction[0] == 1 else "**The person is predicted to be diabetes-free. 🤩**"
     st.success(result_message)
+
+footer="""<style>
+a:link , a:visited{
+color: blue;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: white;
+color: black;
+text-align: center;
+}
+</style>
+<div class="footer">
+<p>Created with ❤ by Mink Virparia</a></p>
+</div>
+"""
+# Add a footer for creator name or copyright
+st.markdown(footer,unsafe_allow_html=True)
