@@ -10,7 +10,7 @@ with open('diabetes_model.pkl', 'rb') as model_file:
 st.title('Diabetes Prediction App')
 
 # Add an image for visual appeal
-st.image('diabetes.jpg  ', use_column_width=True)
+st.image('https://images.everydayhealth.com/images/cs-features-of-an-ideal-type-2-diabetes-treatment-plan-1440x810.jpg', use_column_width=True)
 
 st.write('**Enter Patient Details:**')
 
